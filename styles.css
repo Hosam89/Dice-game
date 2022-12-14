@@ -7,9 +7,11 @@
 .dice {
   text-align: center;
   display: inline-block;
-
+  
 }
-
+.hide{
+  display: none;
+}
 body {
   background-color: #393E46;
 }
@@ -21,7 +23,14 @@ h1 {
   font-size: 8rem;
   color: #4ECCA3;
 }
+input{
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  padding: 4px;
 
+}
 p {
   font-size: 2rem;
   color: #4ECCA3;
@@ -29,7 +38,22 @@ p {
 }
 
 img {
-  width: 80%;
+  width: 200px;
+  height: 200px;
+}
+
+.contorl{
+  text-align: center;
+  width: 50%;
+  margin-inline: auto;
+}
+
+.btn{
+  width: 150px;
+  height: 75px;
+  cursor: pointer;
+  margin-block: 2rem;
+  margin-inline: 1rem;
 }
 
 footer {

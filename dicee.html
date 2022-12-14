@@ -12,25 +12,41 @@
 <body>
 
   <div class="container">
-    <h1>Refresh Me</h1>
+    <h1>Enter The Names and Press Play</h1>
+    <div id="playGame">
 
-    <div class="dice">
-      <p>Player 1</p>
+      <div class="names">
+
+        <input type="text" id="player1" placeholder="Player Two Name">
+        <input type="text" id="player2" placeholder="Player One Name">
+      </div>
+
+      <button class="play btn">Lets Play</button>
+    </div>
+    <div class="dice hide next">
+      <p class="player1"></p>
       <img class="img1" src="">
     </div>
 
-    <div class="dice">
-      <p>Player 2</p>
+    <div class="dice hide next">
+      <p class="player2"></p>
       <img class="img2" src="">
     </div>
 
   </div>
 
+  <div class="contorl hide dice">
+    <p class="winner"></p>
+    <button class="throw btn">Throw</button>
+    <button class="reset btn" onclick="refreshPage()">Reset the Game</button>
+  </div>
+  <footer>
+    Made 🎲 by 🎲 Joe
+  </footer>
 
+
+  <script src="index.js"></script>
 </body>
 
-<footer>
-  Made 🎲 by 🎲 Joe
-</footer>
 
 </html>
