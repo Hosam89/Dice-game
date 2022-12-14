@@ -20,10 +20,11 @@ play.addEventListener('click' , function () {
     document.querySelector('#playGame').style.display= 'none'
     
     document.querySelectorAll('.dice').forEach(box =>{
-        box.style.display = 'block'
+        box.style.display = 'inline-block'
     })
-    document.querySelector('.player1').innerText = enterPlayerOne.value
-    document.querySelector('.player2').innerText = enterPLayerTwo.value
+    document.querySelector('.contorl').style.display='block'
+    document.querySelector('.player1').innerText = `${enterPlayerOne.value}`
+    document.querySelector('.player2').innerText = `${enterPLayerTwo.value}`
 })
 
 

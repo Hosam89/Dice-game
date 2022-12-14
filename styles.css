@@ -6,7 +6,7 @@
 
 .dice {
   text-align: center;
-  display: inline-block;
+  margin-inline: auto;
   
 }
 .hide{
@@ -45,7 +45,8 @@ img {
 .contorl{
   text-align: center;
   width: 50%;
-  margin-inline: auto;
+margin-inline: auto;
+display: none;
 }
 
 .btn{
