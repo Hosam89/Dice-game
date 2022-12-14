@@ -30,7 +30,6 @@ play.addEventListener('click' , function () {
 
 
 throwAgain.addEventListener('click' , function(){
-    
     //Player One Thrwo :
 const playerOne = playerThrow()
     switch(playerOne){
@@ -56,7 +55,7 @@ const playerOne = playerThrow()
             playerOneImg.src = "./images/dice6.png";
             break;
         default:
-            alert('not a Valide number')
+            alert('Not a Vaild number')
 
     }
 
@@ -86,7 +85,7 @@ switch(playerTwo){
         playerTwoImg.src = "./images/dice6.png";
         break;
     default:
-        alert('not a Valide number')
+        alert('Not a Vaild number')
 
 }
 
